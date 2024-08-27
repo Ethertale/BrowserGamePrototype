@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Almendra";
+    src: url("../Themes/Almendra-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.window {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-width: 500px;
+    min-height: 300px;
+    max-width: 1500px;
+    max-height: 900px;
+    width: 50vw;
+    height: 50vh;
+    box-shadow: 0px 0px 30px ;
+    background-color: black;
+}
+
+.window-game {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.window-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.window-text-area {
+    background-color: #4f4f4f;
+    height: 90%;
+    width: 90%;
+    display: flex;
+}
+
+.conversation{
+    background-color: green;
+    height: 100%;
+    width: 70%;
+    padding: 1rem;
+    border: 2px solid purple;
+    overflow: auto;
+}
+
+.side-image{
+    background: rgb(142, 142, 255) url("../Images/side-image-placeholder.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 30%;
+    border: 2px solid purple;
+    border-left: 0px;
+}
+
+.window .window-stats {
+    background-color: aqua;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.window .window-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+button{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.disclaimer {
+    text-align: center;
+}
+
+.disclaimer h1 {
+    font-size: 50px;
+}
+
+#location{
+    font-family: "Almendra", serif;
+    font-size: 1.3rem;
+}
+
